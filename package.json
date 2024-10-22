@@ -1,6 +1,6 @@
 {
   "name": "chinese-baby-names",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "chinese baby names",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "node lib/index.js",
     "build": "rollup -c rollup.config.js",
     "dev": "rollup -c rollup.config.js -w",
-    "release": "standard-version && git push --follow-tags origin"
+    "release": "standard-version && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
